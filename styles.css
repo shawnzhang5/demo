@@ -1,5 +1,6 @@
 body {
-  background: url("image\img_tree.png") no-repeat 98% 8% fixed;
+  background-image: url("image\img_tree.png");
+  background-repeat: repeat-x;
 }
 #aaa
 {
