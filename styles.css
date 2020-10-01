@@ -1,5 +1,5 @@
 body {
-  background: url('image\img_tree.png') no-repeat 98% 8% fixed;
+  background: url("image\img_tree.png") no-repeat 98% 8% fixed;
 }
 #aaa
 {
@@ -16,10 +16,11 @@ body {
 {
 width:80%;
 margin: 0 auto;
-background:black url('image\header.jpg') repeat-x 0% 0%;
+background:black;
 border:solid 1px #c3c3c3;
 color: white;
-font-size:14px;}
+font-size:14px;
+}
 #panel li {
   display: inline-block;
   width:15%;
