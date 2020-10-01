@@ -1,0 +1,38 @@
+body {
+  background: url('C:\Users\apple\source\image\img_tree.png') no-repeat 98% 8% fixed;
+}
+#aaa
+{
+        width:80%;
+        height:100%;
+        padding:4%;
+        margin:auto;
+        text-align:left;
+        background:black url('header.jpg') repeat-x 0% 0%;
+        color:white;
+        font-size:18px;
+        line-height:120%;}
+#panel
+{
+width:80%;
+margin: 0 auto;
+background:black url('C:\Users\apple\source\image\header.jpg') repeat-x 0% 0%;
+border:solid 1px #c3c3c3;
+color: white;
+font-size:14px;}
+#panel li {
+  display: inline-block;
+  width:15%;
+  height: 32px;
+  margin: 0px 0px;
+  border:solid 1px white;
+	padding: 4px 10px;
+	background: #5970B2;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	font: bold 18px arial;
+}
+#panel li:hover {
+  background: #49A3FF
+}
