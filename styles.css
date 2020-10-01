@@ -1,5 +1,5 @@
 body {
-  background: url('C:\Users\apple\source\image\img_tree.png') no-repeat 98% 8% fixed;
+  background: url('image\img_tree.png') no-repeat 98% 8% fixed;
 }
 #aaa
 {
@@ -16,7 +16,7 @@ body {
 {
 width:80%;
 margin: 0 auto;
-background:black url('C:\Users\apple\source\image\header.jpg') repeat-x 0% 0%;
+background:black url('image\header.jpg') repeat-x 0% 0%;
 border:solid 1px #c3c3c3;
 color: white;
 font-size:14px;}
