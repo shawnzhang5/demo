@@ -1,7 +1,7 @@
 .gradient {
     background-image: linear-gradient(rgba(1,0,18,1), rgba(0,0,27,0.5));
 }
-.action li {
+#nav div {
   display: inline-block;
   width:100px;
   height: 32px;
@@ -16,6 +16,6 @@
   font-size: 18px;
   font-weight: bold;
 }
-.action li:hover {
+#nav div:hover {
   background: #49A3FF;
 }
