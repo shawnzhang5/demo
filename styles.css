@@ -1,40 +1,21 @@
-body {
-  background-image: url("image\img_tree.png");
-  background-repeat: repeat-x;
+.gradient {
+    background-image: linear-gradient(rgba(1,0,18,1), rgba(0,0,27,0.5));
 }
-#aaa
-{
-        width:80%;
-        height:100%;
-        padding:4%;
-        margin:auto;
-        text-align:left;
-        background:black url('header.jpg') repeat-x 0% 0%;
-        color:white;
-        font-size:18px;
-        line-height:120%;}
-#panel
-{
-width:80%;
-margin: 0 auto;
-background:black;
-border:solid 1px #c3c3c3;
-color: white;
-font-size:14px;
-}
-#panel li {
+.action li {
   display: inline-block;
-  width:30%;
+  width:100px;
   height: 32px;
   margin: 0px 0px;
   border:solid 1px white;
-	padding: 4px 10px;
+	padding: 3px 5px;
 	background: #5970B2;
 	color: #FFF;
 	text-align: center;
 	text-decoration: none;
-	font: bold 18px arial;
+	font-family: arial;
+  font-size: 18px;
+  font-weight: bold;
 }
-#panel li:hover {
-  background: #49A3FF
+.action li:hover {
+  background: #49A3FF;
 }
