@@ -1,5 +1,8 @@
 .gradient {
     background-image: linear-gradient(rgba(1,0,18,1), rgba(0,0,27,0.5));
+    width: 85%;
+    height: 100%;
+
 }
 #nav div {
   display: inline-block;
