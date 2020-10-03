@@ -5,7 +5,8 @@
 }
 #nav div {
   display: inline-block;
-  Z-index: 30;
+  position: absolute;
+  Z-index: 1;
   width:100px;
   height: 32px;
   margin: 0px 0px;
