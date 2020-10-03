@@ -6,7 +6,7 @@
 .banner {
 	background-image: url("image/header.jpg");
 }
-#nav div {
+#nav .rounded {
   display: inline-block;
   width:100px;
   height: 32px;
@@ -21,6 +21,6 @@
   font-size: 18px;
   font-weight: bold;
 }
-#nav div:hover {
+#nav .rounded:hover {
   background: #49A3FF;
 }
