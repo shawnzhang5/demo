@@ -3,10 +3,11 @@
     width: 85%;
     height: 100%;
 }
+.banner {
+	background-image: url("image/header.jpg");
+}
 #nav div {
   display: inline-block;
-  position: absolute;
-  Z-index: 1;
   width:100px;
   height: 32px;
   margin: 0px 0px;
