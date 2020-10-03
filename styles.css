@@ -4,7 +4,7 @@
     height: 100%;
 }
 .banner {
-	background-image: url("image/header.jpg");
+	background-image: url("image/header.jpg") repeat-x;
         
 }
 #nav .rounded {
