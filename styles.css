@@ -3,7 +3,7 @@
     width: 85%;
     height: 100%;
 }
-#banner {
+#header {
 	background-image: url("image/header.jpg") repeat-x;
 }
 #nav .rounded {
