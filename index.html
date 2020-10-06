@@ -13,25 +13,67 @@
 	<script type="text/javascript" src="app.js"></script>
 </head>
 
-<body>
-<div class="action p-0 m-0 gradient text-white mx-auto">
-    <div id="header">
+<body  class="p-0 m-0 text-white mx-auto">
+<div class="action gradient">
+    <header>
 	<div class="d-flex justify-content-start align-items-start" id="nav">
-		<div id="login" class="rounded">Login</div>
-		<div id="register" class="rounded">Register</div>
+		<div id="login" class="rounded">Home</div>
+		<div id="register" class="rounded">About Me</div>
 	</div>
-    </div>
-	<div id="login_value">aaa</div>
+		</header>
+	<div id="login_value">
+		<div class="py-3 px-1 px-sm-2 px-md-3 px-lg-4 px-xl-5 text-center">
+			<h1>Hi, I'm <strong>Shawn Zhang</strong>.</h1>
+			<h2>WHAT I CAN DO FOR YOUR COMPANY</h2><br/>
+		<div class="skill">
+			<img src="C:\Users\apple\source\image\c-sharp.png" height="5%" width="8%">
+			<img src="C:\Users\apple\source\image\sql.png" height="5%" width="8%">
+			<img src="C:\Users\apple\source\image\trinity.png" height="25%" width="25%">
+			<img src="C:\Users\apple\source\image\linux.png" height="5%" width="8%">
+			<br />
+		</div><br/>
+		<div class="badge">
+				<img class="gazelle" src="C:\Users\apple\source\image\MTA-Software_Development_Fundamentals.png" style="top:5%;left:1%;">
+				<img class="gazelle" src="C:\Users\apple\source\image\MTA-Networking_Fundamentals.png" style="top:5%;left:34%;">
+				<img class="gazelle" src="C:\Users\apple\source\image\ccna.png" style="top:5%;left:67%;">
+		</div><br/><br/><br/><br/>
+			<div class="d-flex justify-content-center">
+				<a href="#" class="button mx-5">View my Resume</a>
+				<a href="#project" class="button mx-5">View my Projects</a>
+			</div><br/><br/><br/>
+			<h2 id="project">Projects</h2>
+			<div class="d-flex flex-wrap justify-content-around align-items-start">
+				<article class="border rounded-top mx-2 my-4 bg-light text-dark">
+					<a class="slideshows" href="https://shou0630.webs.com" target="_blank">
+						<img src="C:\Users\apple\source\image\1.jpg">
+						<img src="C:\Users\apple\source\image\2.jpg" style="display:none">
+					</a>
+					<p class="style2">BLAH</p>
+				</article>
+				<article class="border rounded-top mx-2 my-4 bg-light text-dark">
+					<a class="slideshows" href="https://shou0630.webs.com" target="_blank">
+						<img src="C:\Users\apple\source\image\PSO1.jpg">
+						<img src="C:\Users\apple\source\image\PSO2.jpg" style="display:none">
+					</a>
+					<p class="style2">BLAH</p>
+				</article>
+			</div>
+		</div>
+	</div>
+
+
+
+
 	<div id="register_value" style="display:none">
 		<div class="py-2 px-1 px-sm-2 px-md-3 px-lg-4 px-xl-5">
-		<img src="image/thumbnail.jpg" class="float-right">
+		<img src="C:\Users\apple\source\image\thumbnail.jpg" class="float-right">
 		<div class="text-left">
 		Served four years in the U.S Army Brigade S6, graduated from City College of New York with a Bachelor&apos;s Degree in Electrical Engineering.</br>
 		This is a simple static website, which demonstrates my basic skill on HTML, CSS and JavaScript. Due to free web server hosting limitation, I'm not able to demonstrate form and server script here.</br>
 		The most interesting project I have worked on is a collaborative project for a mobile and laptop application based on the JDK platform. The goal of this project is to implement an intelligent spreading optimization technique using evolutionary algorithms. These algorithms are designed to promote uniform spreading of nodes, which can represent anything from robots to automobiles across any enclosed landscape. This project has far-reaching impacts across a spectrum of technologies from military defense to epidemiology. Within the spreading algorithms, intelligent nodes assess their surrounding environment, and calculate the most efficient path of travel from those given conditions. The complexity lies in selecting the most efficient route for spreading. The overall difficulty in discovering the best route is the great number of potential solutions in developing the most efficient spreading algorithm. Therefore, to reduce the computation time, a tool called fitness function is applied to path evaluations, making the algorithms more efficient.
 		The management experience I obtained from this project is fascinating as well. The design team has to run a massive field test with more than twenty people. Each individual representing a node has access to the application which is going to be connected to the central access point. A central terminal which contains server side software processes communication between nodes and calculates the fitness function. As a team member I have to instruct participants operation procedures of the software. I coordinate and guide their movements to the  appropriate positions marked on the floor. This simulation provides me an overview of spreading pattern and node distribution in scale. Experience from this project does not only benefit from people management but also from asset management. We evaluate and discuss the feasibility and cost for each stage, then make optimized decisions. For instance, we upgrade the most cost-efficient router that enables full coverage of all possible nodes.<br/><br/>
 		</div>
-		<div class="text-center"><img src="image/PSO1.jpg" width="60%" height="60%"><br/><br/>Figure 1.	Development of the Application<br/><br/><img src="image/PSO2.jpg" width="60%" height="60%"><br/><br/>Figure 2. User GUI of the Application</div>
+		<div class="text-center"><img src="C:\Users\apple\source\image\PSO1.jpg" width="60%" height="60%"><br/><br/>Figure 1.	Development of the Application<br/><br/><img src="C:\Users\apple\source\image\PSO2.jpg" width="60%" height="60%"><br/><br/>Figure 2. User GUI of the Application</div>
 		</div>
 	</div>
 	<div id="display"></div>
