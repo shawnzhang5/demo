@@ -1,12 +1,8 @@
-body {
-  width: 85%;
-  height: 100%;
-}
 .gradient {
     background: linear-gradient(rgba(1,0,18,1), rgba(0,0,27,0.5));
 }
 header {
-	background-image: url("image/header.jpg");
+  background-image: url("image/header.jpg");
   height: 145px;
   width: 100%;
 }
