@@ -67,11 +67,8 @@ article img {
   max-width: 32em;
   padding: 30px 20px 30px 20px;
   margin: 0 0 20px 0;
+  font-family: Chunk;
 	border: 1px solid red;
-}
-.style2 header{
-	font-family: Chunk;
-	font-size: 20px;
 }
 .icons{
   width: 80px;
