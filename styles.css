@@ -64,7 +64,8 @@ article img {
   height:260px;
 }
 .style2 {
-  max-width: 32em;
+  width:310px;
+  height:300px;
   padding: 30px 20px 30px 20px;
   margin: 0 0 20px 0;
   font-family: Chunk;
