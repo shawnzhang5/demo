@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Chunk;
+  src: url("Chunk Five Print.otf");
+}
 .gradient {
     background: linear-gradient(rgba(1,0,18,1), rgba(0,0,27,0.5));
 }
@@ -64,8 +68,9 @@ article img {
   padding: 30px 20px 30px 20px;
   margin: 0 0 20px 0;
 }
-
-
+.style2 h2{
+	font-family: Chunk;
+}
 .icons{
   width: 80px;
   height: 80px;
